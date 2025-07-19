@@ -41,20 +41,24 @@ div {
 h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 400;
+    font-size: 25px;
 }
 
-h4 {
+h2 {
+    font-weight: 600;
+    font-size: 13px;
+    color: hsl(75, 94%, 57%);
+    padding: 8px;
+}
+
+h3 {
+
     color: hsl(0, 0%, 100%);
     font-weight: 200;
     padding-top: 20px;
     padding-bottom: 10px;
-}
+    font-size: 13px;
 
-h5 {
-    font-weight: 600;
-    font-size: 14px;
-    color: hsl(75, 94%, 57%);
-    padding: 10px;
 }
 
 
@@ -66,8 +70,10 @@ ul {
 
 ul li:hover {
     background: hsl(75, 94%, 57%);
+    font-weight: 600;
     color: hsl(0, 0%, 8%);
     transition: all 0.5s;
+    
 }
 
 ul li {
