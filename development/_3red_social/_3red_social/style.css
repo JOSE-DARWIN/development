@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+main {
+
+    background: hsl(0, 0%, 12%);
+    height: 560px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+div {
+    padding: 30px;
+
+    img {
+        border-radius: 100px;
+        height: 80px;
+        width: 80px;
+    }
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+h4 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    padding: 10px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+ul li:hover {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: all 0.5s;
+}
+
+ul li {
+    background: hsl(0, 0%, 20%);
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    margin: 1rem;
+    cursor: pointer;
+
+
+}
